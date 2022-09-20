@@ -1,10 +1,6 @@
 #! /bin/bash
-API = 'bot5700617525:AAGXbkqZ2psOplICMFSWVhggYM2ySrNtgeQ'
-chatID = '-678535988'
-bell = '\ud83d\udd14'
-verify = '\u2714'
 
-def call(String API, String chatID, String bell, String verify){
+def call(String API, String chatID, String bell){
 	sh """ #! /bin/bash
 	curl -X POST \
 	-H 'Content-Type: application/json' \
