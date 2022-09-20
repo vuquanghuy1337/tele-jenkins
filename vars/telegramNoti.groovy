@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env groovy
 
 def call(String API, String chatID, String bell){
 	sh """ #! /bin/bash
